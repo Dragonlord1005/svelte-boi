@@ -1,0 +1,10 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "Pocketbase",
+            "isBackground": true,
+            "command": "cd ./pocketbase && ./pocketbase serve"
+        }
+    ]
+}
