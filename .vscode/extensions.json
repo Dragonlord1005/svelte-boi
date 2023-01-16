@@ -1,6 +1,5 @@
 {
     "recommendations": [
-        "svelte.svelte-vscode",
-        "voorjaar.windicss-intellisense"
+        "svelte.svelte-vscode"
     ]
 }
