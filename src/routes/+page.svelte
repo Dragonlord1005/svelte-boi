@@ -13,7 +13,7 @@
 
 <style lang="scss">
 	h1 {
-		font: bold;
+		font-weight: bold;
 		text-align: center;
 	}
 	a {
