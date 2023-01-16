@@ -14,7 +14,12 @@
 <slot></slot>
 
 <style lang="scss">
+    header{
+        height: 100%;
+    }
     nav {
+        background-color: aqua;
+        height: 100%;
         margin-top: 0px;
         display: flex;
         flex-wrap: nowrap;
