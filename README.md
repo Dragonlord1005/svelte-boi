@@ -1,0 +1,2 @@
+# svelte-boi
+uses SvelteKit
