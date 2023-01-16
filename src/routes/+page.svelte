@@ -2,15 +2,21 @@
 	import Login from '../lib/Login.svelte';
 </script>
 
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<div>
+	<h1>Welcome to SvelteKit</h1>
+	<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
 
-<Login />
+	<Login />
 
-<a href="/about">about</a>
+	<a href="/about">about</a>
+</div>
 
-<style>
+<style lang="scss">
+	h1 {
+		font: bold;
+		text-align: center;
+	}
 	a {
-		color: #1e40af;
+		color: #075985;
 	}
 </style>
