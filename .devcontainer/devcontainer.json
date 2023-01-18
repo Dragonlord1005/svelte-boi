@@ -1,16 +1,12 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/javascript-node:16",
-    "features": {
-    "ghcr.io/NicoVIII/devcontainer-features/pnpm:2": {}
-    },
-    "customizations": {
-    "vscode": {
-        "extensions": [
-        "WakaTime.vscode-wakatime",
-        "svelte.svelte-vscode",
-        "trunk.io"
-    ]
-    }
-    },
-    "postCreateCommand": "pnpm i"
+	"image": "mcr.microsoft.com/devcontainers/javascript-node:16",
+	"features": {
+		"ghcr.io/NicoVIII/devcontainer-features/pnpm:2": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": ["WakaTime.vscode-wakatime", "svelte.svelte-vscode", "trunk.io"]
+		}
+	},
+	"postCreateCommand": "pnpm i"
 }
