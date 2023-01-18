@@ -6,7 +6,9 @@
     "customizations": {
     "vscode": {
         "extensions": [
-        "WakaTime.vscode-wakatime"
+        "WakaTime.vscode-wakatime",
+        "svelte.svelte-vscode",
+        "trunk.io"
     ]
     }
     },
