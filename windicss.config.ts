@@ -15,7 +15,7 @@ export default defineConfig({
 	//   },
 	plugins: [formsPlugin],
 	shortcuts: {
-		btn: 'bg-blue-400 rounded rounded-lg hover:bg-blue-500',
+		btn: 'bg-blue-500 rounded rounded-lg hover:bg-blue-600',
 		link: 'text-blue-600 hover:text-blue-400'
 	}
 });

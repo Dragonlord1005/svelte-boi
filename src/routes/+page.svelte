@@ -2,6 +2,9 @@
 	import Login from '../lib/Login.svelte';
 </script>
 
+<head>
+	<title>Svelte Boi</title>
+</head>
 <div>
 	<h1 class="text-center font-bold text-lg">Welcome to SvelteKit</h1>
 	<p>

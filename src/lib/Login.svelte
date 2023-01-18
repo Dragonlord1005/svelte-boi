@@ -5,7 +5,12 @@
 	let password: string;
 
 	async function login() {
-		await pb.collection('users').authWithPassword(username, password);
+		try { await pb.collection('users').authWithPassword(username, password).then((result) =>
+			console.log('Yay it works', result)
+		);
+		} catch (err) {
+
+		}
 	}
 
 	async function signUp() {
@@ -31,7 +36,7 @@
 <div>
 	{#if $currentUser}
 		<p>Signed in as {$currentUser.username}</p>
-		<button on:click={signOut}>Signout</button>
+		<button on:click={signOut} class="btn">Signout</button>
 	{:else}
 		<form on:submit|preventDefault>
 			<input placeholder="Username" type="text" bind:value={username} />
