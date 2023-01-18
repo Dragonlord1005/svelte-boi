@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Login from '../lib/Login.svelte';
-	import 'virtual:windi.css'
+	import 'virtual:windi.css';
 </script>
 
 <header>
