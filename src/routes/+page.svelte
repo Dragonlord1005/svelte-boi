@@ -10,5 +10,5 @@
 
 	<Login />
 
-	<a href="/about">about</a>
+	<a href="/about" class="link">about</a>
 </div>
