@@ -5,8 +5,8 @@
 
 <header>
 	<nav class="bg-blue-300 flex justify-between">
-		<p class="font-bold text-left text-lg">Svelte-boi</p>
-		<div class="text-right">
+		<p class="font-bold text-left text-lg self-center">Svelte-boi</p>
+		<div class="text-right self-center">
 			<Login />
 		</div>
 	</nav>

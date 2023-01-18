@@ -28,7 +28,7 @@
 	}
 </script>
 
-<div class="login">
+<div>
 	{#if $currentUser}
 		<p>Signed in as {$currentUser.username}</p>
 		<button on:click={signOut}>Signout</button>
@@ -38,15 +38,8 @@
 
 			<input placeholder="Password" type="password" bind:value={password} />
 
-			<button on:click={signUp}>Sign Up</button>
+			<button on:click={signUp} class="btn">Sign Up</button>
 			<button on:click={login}>Login</button>
 		</form>
 	{/if}
 </div>
-
-<style lang="scss">
-	.login {
-		display: flex;
-		margin-top: 0px;
-	}
-</style>
