@@ -4,7 +4,7 @@
 </script>
 
 <header>
-	<nav class="bg-blue-300 flex justify-between">
+	<nav class="bg-blue-600 flex justify-between">
 		<p class="font-bold text-left text-lg self-center">Svelte-boi</p>
 		<div class="text-right self-center">
 			<Login />
