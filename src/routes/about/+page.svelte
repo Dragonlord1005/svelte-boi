@@ -5,5 +5,8 @@
 <!-- <Login /> -->
 
 <body>
-	<h1>Hi</h1>
+	<head>
+		<title>About</title>
+	</head>
+	<h1 class="*heading">About</h1>
 </body>

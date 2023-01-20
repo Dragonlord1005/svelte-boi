@@ -13,6 +13,9 @@ export default defineConfig({
 	//       },
 	//     },
 	//   },
+	alias: {
+		'heading': 'text-center font-bold text-lg'
+	},
 	plugins: [formsPlugin],
 	shortcuts: {
 		btn: 'bg-blue-500 rounded rounded-lg hover:bg-blue-600',
