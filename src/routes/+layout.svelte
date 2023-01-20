@@ -1,37 +1,20 @@
 <script lang="ts">
-	import Login from '../lib/Login.svelte';
+	import Login from '$lib/Login.svelte';
+	import 'virtual:windi.css';
 </script>
 
 <header>
-	<nav>
-		<p id="brand-name">Svelte-boi</p>
-		<div id="nav-right">
-			<Login />
+	<nav class="bg-blue-400 flex justify-between p-3">
+		<p class="font-bold text-left text-lg self-center">Svelte-boi</p>
+		<div class="text-center self-center">
+			<a href="/about" class="navLink">About</a>
+			<a href="/signup" class="navLink">Signup</a>
 		</div>
+		<!-- Disable for now -->
+		<!-- <div class="text-right self-center">
+			<Login />
+		</div> -->
 	</nav>
 </header>
 
 <slot />
-
-<style lang="scss">
-	header {
-		height: 100%;
-	}
-	nav {
-		background-color: aqua;
-		height: 100%;
-		margin-top: 0px;
-		display: flex;
-		flex-wrap: nowrap;
-		justify-content: space-between;
-	}
-	#brand-name {
-		font-weight: bold;
-		text-align: left;
-		font-size: 1.125rem; /* 18px */
-		line-height: 1.75rem; /* 28px */
-	}
-	#nav-right {
-		text-align: right;
-	}
-</style>

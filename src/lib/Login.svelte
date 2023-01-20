@@ -5,7 +5,12 @@
 	let password: string;
 
 	async function login() {
-		await pb.collection('users').authWithPassword(username, password);
+		try { await pb.collection('users').authWithPassword(username, password).then((result) =>
+			console.log('Yay it works', result)
+		);
+		} catch (err) {
+
+		}
 	}
 
 	async function signUp() {
@@ -28,25 +33,18 @@
 	}
 </script>
 
-<div class="login">
+<div>
 	{#if $currentUser}
 		<p>Signed in as {$currentUser.username}</p>
-		<button on:click={signOut}>Signout</button>
+		<button on:click={signOut} class="btn">Signout</button>
 	{:else}
 		<form on:submit|preventDefault>
 			<input placeholder="Username" type="text" bind:value={username} />
 
 			<input placeholder="Password" type="password" bind:value={password} />
 
-			<button on:click={signUp}>Sign Up</button>
+			<button on:click={signUp} class="btn">Sign Up</button>
 			<button on:click={login}>Login</button>
 		</form>
 	{/if}
 </div>
-
-<style lang="scss">
-	.login {
-		display: flex;
-		margin-top: 0px;
-	}
-</style>
