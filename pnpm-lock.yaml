@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@sveltejs/adapter-auto': ^1.0.0
-  '@sveltejs/adapter-netlify': ^1.0.3
+  '@sveltejs/adapter-netlify': ^2.0.0
   '@sveltejs/kit': ^1.0.0
   '@typescript-eslint/eslint-plugin': ^5.45.0
   '@typescript-eslint/parser': ^5.45.0
@@ -21,7 +21,7 @@ specifiers:
 
 devDependencies:
   '@sveltejs/adapter-auto': 1.0.1_@sveltejs+kit@1.1.1
-  '@sveltejs/adapter-netlify': 1.0.3_@sveltejs+kit@1.1.1
+  '@sveltejs/adapter-netlify': 2.0.0_@sveltejs+kit@1.1.1
   '@sveltejs/kit': 1.1.1_svelte@3.55.1+vite@4.0.4
   '@typescript-eslint/eslint-plugin': 5.48.1_oomjohfipuyaxs2zyomcx4f5by
   '@typescript-eslint/parser': 5.48.1_7uibuqfxkfaozanbtbziikiqje
@@ -329,10 +329,10 @@ packages:
       import-meta-resolve: 2.2.1
     dev: true
 
-  /@sveltejs/adapter-netlify/1.0.3_@sveltejs+kit@1.1.1:
-    resolution: {integrity: sha512-LhMjadwb58E0Uzo70lH/xiYXJYfKorwvS87svmE524vT69mjcj8SYUO1ib+TZr+FX/ODmINwtdtCM15oy6WaRg==}
+  /@sveltejs/adapter-netlify/2.0.0_@sveltejs+kit@1.1.1:
+    resolution: {integrity: sha512-4boPGKR2JWl/mc4oEqN7ILuWgnULY8I2PqRKeQxUuKvNcUu1mJJTNFY6otG57Uwjr2yh/O+HREVfn+BFPAT/3Q==}
     peerDependencies:
-      '@sveltejs/kit': ^1.0.0
+      '@sveltejs/kit': ^1.5.0
     dependencies:
       '@iarna/toml': 2.2.5
       '@sveltejs/kit': 1.1.1_svelte@3.55.1+vite@4.0.4
